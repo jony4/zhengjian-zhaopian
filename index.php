@@ -22,17 +22,11 @@
     <br>
     <strong>第三步</strong>, 选择分割线的颜色：
 
-    <input id="bgcolorid" type="radio" name="bgcolorid" value="blue" checked="checked"/> 蓝色 <input id="bgcolorid"
-                                                                                                     type="radio"
-                                                                                                     name="bgcolorid"
-                                                                                                     value="white"/>白色
+    <input id="bgcolorid" type="radio" name="bgcolorid" value="blue" checked="checked"/> 蓝色 
+    <input id="bgcolorid" type="radio" name="bgcolorid" value="white"/>白色
     <input id="bgcolorid" type="radio" name="bgcolorid" value="gray"/> 灰色
-
-
-    将来的照片就是这个样子的：<br>
-
-    <img id="previewImg" alt=""/>
     <br>
+
     <strong>第四步</strong>, 选择你的证件照片：
 
     <input id="filename" type="file" name="filename"/>
@@ -41,6 +35,8 @@
     <strong>最后一步</strong>, 点击下载，照片就可以去冲印了：
 
     <input type="submit" value="下载"/>
+    
+    <br>
 
     如果你的照片比较大， 上传会花一些时间， 别着急， 请耐心等待。
 
